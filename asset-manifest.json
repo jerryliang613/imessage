@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/imessage/static/css/main.3019dfdf.chunk.css",
+    "main.js": "/imessage/static/js/main.4c35b234.chunk.js",
+    "main.js.map": "/imessage/static/js/main.4c35b234.chunk.js.map",
+    "runtime-main.js": "/imessage/static/js/runtime-main.0d14e25f.js",
+    "runtime-main.js.map": "/imessage/static/js/runtime-main.0d14e25f.js.map",
+    "static/js/2.2fd30355.chunk.js": "/imessage/static/js/2.2fd30355.chunk.js",
+    "static/js/2.2fd30355.chunk.js.map": "/imessage/static/js/2.2fd30355.chunk.js.map",
+    "index.html": "/imessage/index.html",
+    "static/css/main.3019dfdf.chunk.css.map": "/imessage/static/css/main.3019dfdf.chunk.css.map",
+    "static/js/2.2fd30355.chunk.js.LICENSE.txt": "/imessage/static/js/2.2fd30355.chunk.js.LICENSE.txt",
+    "static/media/imessage.2ee5a3f6.png": "/imessage/static/media/imessage.2ee5a3f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d14e25f.js",
+    "static/js/2.2fd30355.chunk.js",
+    "static/css/main.3019dfdf.chunk.css",
+    "static/js/main.4c35b234.chunk.js"
+  ]
+}
