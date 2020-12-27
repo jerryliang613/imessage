@@ -1,0 +1,64 @@
+.chat{
+    position: relative;
+    display: flex;
+    flex: 0.65;
+    height: 100vh;
+    flex-direction: column;
+    background-color: white;
+
+    &_messages{
+        overflow: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        margin-bottom: 50px;
+    }
+
+    &_input{
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        &>form{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        &>form>input[type="text"]{
+            border: 1px solid lightgray;
+            width: 98%;
+            outline-width: 0;
+            border-radius: 999px;
+            padding: 5px;
+        }
+
+        &>form>input[type="submit"]{
+            display: none;
+        }
+
+    }
+
+    &_name{
+        color: black;
+    }
+
+    &_header{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid lightgray;
+        background-color: #f5f5f5;
+
+        &>h4{
+            font-weight: 400;
+            color: gray;
+
+        }
+
+    }
+}

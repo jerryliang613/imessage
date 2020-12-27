@@ -1,3 +1,9 @@
+@import './imessage';
+@import './sidebar';
+@import './sidebarchat';
+@import './login';
+@import './message';
+
 *{
   margin: 0;
 }
@@ -13,4 +19,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  display: flex;
+  justify-content: center;
 }
